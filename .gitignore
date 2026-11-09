@@ -1,0 +1,9 @@
+# Build output
+build/
+*.class
+# Never commit Mojang's game files or patched output
+minecraft*.jar
+*-noendermen.jar
+NoEndermen-jarmod.zip
+# Downloaded dependencies
+lib/
