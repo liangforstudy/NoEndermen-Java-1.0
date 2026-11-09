@@ -2,6 +2,9 @@
 
 A bytecode patcher / jar mod that removes Endermen from Minecraft Java Edition 1.0.0. Yes, you heard that right: it's the version Notch released by pulling the lever on stage at MineCon 2011.
 
+## Who is this for?
+[This post on r/MinecraftMod.](https://www.reddit.com/r/MinecraftMod/s/pDMTJESJjN)
+
 ## What it changes
 - **No Enderman spawns anywhere.** All 14 Enderman spawn entries are gone: 13 overworld biomes plus The End.
 - **Existing Endermen disappear.** The `Enderman` entry (id 58) is removed from the entity registry. Any Endermen already saved in an old world are skipped when their chunk loads (the console logs `Skipping Entity with id Enderman`).
